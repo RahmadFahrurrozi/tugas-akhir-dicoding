@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flux.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html"><img src="images/logo-nav.gif" alt="logo" /></a>
+        <p><span>Flux</span> Designs</p>
+      </div>
+      <nav class="nav-right">
+        <p>Hai, Rahmad Fahrurrozi</p>
+        <img
+          onclick="myFunction()"
+          class="dropbtn"
+          src="images/profile-nav.jpg"
+          alt="profile-nav"
+        />
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#">Profile</a>
+          <a href="#">Account</a>
+          <a href="#">Project</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="section1">
+        <h1>Visualize, without limit</h1>
+        <p>Realistic 3D Mockup Video in minutes</p>
+        <form class="input-1">
+          <input type="email" placeholder="E-mail" required />
+          <button>Get Started</button>
+        </form>
+        <img src="images/pagefix.png" alt="Visualize" />
+      </section>
+      <article class="support-logo">
+        <img src="images/ADPlist.svg" alt="ADPlist" />
+        <img src="images/cooncapital.svg" alt="cooncapital" />
+        <img src="images/nvdia.svg" alt="nvdia" />
+        <img src="images/sequoia.svg" alt="sequoia" />
+      </article>
+      <article class="text-logoSupport">
+        <p>
+          Increase your conversion rates <span>by creating engaging</span> 3D
+          mockup animations <span>for your marketing material</span> in minutes.
+        </p>
+      </article>
+      <section class="section2">
+        <div class="showcases">
+          <img src="images/showcases.svg" alt="" />
+          <p>showcases</p>
+        </div>
+        <h2><span>Craft</span> 3D mockups</h2>
+        <h2>with viral <span>potential</span></h2>
+      </section>
+      <section class="arrow">
+        <i id="left" class="ri-arrow-left-circle-fill"></i>
+        <i id="right" class="ri-arrow-right-circle-fill"></i>
+      </section>
+      <article class="product">
+        <div class="img-product">
+          <img src="images/product1fix.png" alt="product1" />
+          <img src="images/product2fix.png" alt="product2" />
+          <img src="images/product3fix.png" alt="product3" />
+          <img src="images/product4fix.png" alt="product4" />
+          <img src="images/product5fix.png" alt="product5" />
+          <img src="images/profuct6fix.png" alt="product6" />
+        </div>
+      </article>
+      <section class="section3">
+        <div class="solution">
+          <img src="images/showcases.svg" alt="" />
+          <p>solutions</p>
+        </div>
+        <h3>Faster & cheaper with</h3>
+        <h2>your new workflow</h2>
+      </section>
+      <article class="tutor">
+        <div class="text-tutor">
+          <p>0.1 Add your design</p>
+          <p>0.2 Make it yours</p>
+          <p>0.3 Download in high-quality</p>
+        </div>
+        <div class="img-tutor">
+          <img src="images/solution.svg" alt="solution" />
+        </div>
+      </article>
+      <section class="section4">
+        <img src="images/showcases.svg" alt="" />
+        <p>mean fetures</p>
+      </section>
+      <article class="titlesec4">
+        <h2><span>Meet the </span>one powerful tool</h2>
+      </article>
+      <article class="parentCardSec4">
+        <div class="card" onclick="toggleText(this)">
+          <div class="logo-card">
+            <img src="images/internet.png" alt="internet" />
+          </div>
+          <div class="content-card">
+            <div class="img-card">
+              <img src="images/card1.png" alt="card1" />
+            </div>
+            <div class="text-card">
+              <h2>100% web-based</h2>
+              <p>No downloads or installations needed</p>
+            </div>
+          </div>
+          <div class="text-info">
+            <p>
+              easy of accessibility, efficiency, and lighter use of resources on
+              user devices.
+            </p>
+          </div>
+        </div>
+        <div class="card" onclick="toggleText(this)">
+          <div class="logo-card2">
+            <img src="images/box.svg" alt="internet" />
+          </div>
+          <div class="content-card2">
+            <div class="text-card2">
+              <h2>Studio-level quality</h2>
+              <p>
+                Studio-grade excellence, surpassing expectations, and defining a
+                peerless brand identity.
+              </p>
+            </div>
+            <div class="img-card2">
+              <img src="images/card2fix.png" alt="card2" />
+            </div>
+          </div>
+          <div class="text-info">
+            <p>
+              Top-tier studio quality, delivering exceptional results that not
+              only satisfy but also exude unparalleled excellence and a
+              distinctive brand image.
+            </p>
+          </div>
+        </div>
+        <div class="card" onclick="toggleText(this)">
+          <div class="logo-card">
+            <img src="images/love.png" alt="internet" />
+          </div>
+          <div class="content-card">
+            <div class="img-card3">
+              <img src="images/card3 (2).png" alt="card3" />
+            </div>
+            <div class="text-card3">
+              <h2>Easy to use, easy to love</h2>
+              <p>Start quickly with 3D models & templates</p>
+            </div>
+          </div>
+          <div class="text-info">
+            <p>
+              Let's embark on a thrilling adventure with available 3D models and
+              templates.
+            </p>
+          </div>
+        </div>
+        <div class="card" onclick="toggleText(this)">
+          <div class="logo-card2">
+            <img src="images/play.png" alt="internet" />
+          </div>
+          <div class="content-card4">
+            <div class="text-card4">
+              <h2>Customizable 3D product animation</h2>
+              <p>
+                Get client approval from the first submission with engaging
+                animated videos
+              </p>
+            </div>
+            <div class="img-card4">
+              <img src="images/card4.png" alt="card4" />
+            </div>
+          </div>
+          <div class="text-info">
+            <p>
+              "Indulge in the boundless magic of unparalleled flexibility in
+              every detail."
+            </p>
+          </div>
+        </div>
+        <div class="card" onclick="toggleText(this)">
+          <div class="logo-card">
+            <img src="images/time.png" alt="internet" />
+          </div>
+          <div class="content-card5">
+            <div class="img-card5">
+              <img src="images/card4+.png" alt="card5" />
+            </div>
+            <div class="text-card5">
+              <h2>Unlimited history & revisions</h2>
+              <p>Fully cloud-render</p>
+            </div>
+          </div>
+          <div class="text-info">
+            <p>Explore limitless history and revisions without constraints.</p>
+          </div>
+        </div>
+      </article>
+      <article class="titleRiview">
+        <h2>Review & <span>Testimonial</span></h2>
+      </article>
+      <article class="review">
+        <div class="cardReview" id="card1" onclick="toggleCard('card1')">
+          <img
+            src="images/review1.jpeg"
+            alt="Profile Picture"
+            class="profile-img"
+          />
+          <h3>Steven joe</h3>
+          <p class="pesan-kesan" id="pesan1">
+            "The animation display is incredibly realistic and responsive."
+          </p>
+          <div class="rating">
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+          </div>
+        </div>
+
+        <div class="cardReview" id="card2" onclick="toggleCard('card2')">
+          <img
+            src="images/review2.jpeg"
+            alt="Profile Picture"
+            class="profile-img"
+          />
+          <h3>Alva Byte</h3>
+          <p class="pesan-kesan" id="pesan2">
+            "smooth and lifelike animations truly enhance the overall user
+            experience.""
+          </p>
+          <div class="rating">
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+          </div>
+        </div>
+
+        <div class="cardReview" id="card3" onclick="toggleCard('card3')">
+          <img
+            src="images/review3.jpeg"
+            alt="Profile Picture"
+            class="profile-img"
+          />
+          <h3>Sikojo</h3>
+          <p class="pesan-kesan" id="pesan3">
+            "This 3D animation mockup has successfully met my expectations."
+          </p>
+          <div class="rating">
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+          </div>
+        </div>
+      </article>
+      <article class="centerTitleProfile">
+        <h2><span>About</span> Creator</h2>
+      </article>
+      <aside class="cardProfileContainer">
+        <aside class="cardprofile">
+          <aside class="imgProfile">
+            <img src="images/Rahmad fahrurrozi.jpeg" alt="profile" />
+          </aside>
+          <div class="textProfileTitle">
+            <h3>Front-End Web Developer</h3>
+          </div>
+          <div class="biodata">
+            <p>Name : <span>Rahmad Fahrurrozi</span></p>
+            <p>University : <span>Banyuwangi Polytechnic State</span></p>
+            <p>Study Program : <span>Bussines & Informatics</span></p>
+            <p>address : <span>Banyuwangi, Jawa Timur</span></p>
+          </div>
+        </aside>
+      </aside>
+    </main>
+    <footer>
+      <div class="sosialMedia">
+        <a href="https://www.instagram.com/fahrurrr_ozi?igsh=MTBoaHdqeWNieTN6"
+          ><i class="ri-instagram-fill"></i
+        ></a>
+        <a href="https://github.com/RahmadFahrurrozi"
+          ><i class="ri-github-fill"></i
+        ></a>
+        <a href="https://www.tiktok.com/@fahrurrr0z1?_t=8ixbAAQn9nu&_r=1"
+          ><i class="ri-tiktok-fill"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/rahmad-fahrurrozi-38424829b/"
+          ><i class="ri-linkedin-box-fill"></i
+        ></a>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2024 Rahmad Fahrurrozi All Rights Reserved</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
